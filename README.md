@@ -6,8 +6,11 @@ Build a chess-playing server (node) that can be deployed in a headless swarm of 
 
 ## Design
 
-**Major Components**
+### Major Components
 
--   Express server for interaction with humans
--   WebSocket server for interaction with servers
--
+-   ChessNode class
+    -   Express server for interaction with humans
+    -   WebSocket server for interaction with servers
+    -   ChessGame instance
+    -   Redis wrapper
+-   Shared redis server
