@@ -13,4 +13,4 @@ Build a chess-playing server (node) that can be deployed in a headless swarm of 
     -   WebSocket server for interaction with servers
     -   ChessGame instance
     -   Redis wrapper
--   Shared redis server
+-   Shared Redis server

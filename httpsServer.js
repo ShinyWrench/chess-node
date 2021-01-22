@@ -1,6 +1,6 @@
 const express = require('express');
 
-module.exports = class HttpServer {
+module.exports = class HttpsServer {
     constructor(port = 3000) {
         this.port = port;
         this.app = express();
