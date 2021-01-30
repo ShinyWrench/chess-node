@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
+// TODO: add constants file
+// TODO: connect to redis
+// TODO: create a game model for redis
+// TODO: start TDD with Jest
+
 const app = require('../app');
 
 const port = process.env.PORT || 3000;
