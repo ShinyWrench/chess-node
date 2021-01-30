@@ -1,13 +1,13 @@
 #!/usr/bin/env node
+const constants = require('../constants');
 
-// TODO: add constants file
 // TODO: connect to redis
 // TODO: create a game model for redis
 // TODO: start TDD with Jest
 
 const app = require('../app');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || constants.defaultHTTPPort;
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
